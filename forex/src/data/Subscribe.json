@@ -1,0 +1,36 @@
+[
+  {
+    "type": "standard",
+    "title": "Standard Subscription",
+    "pricePerMonth": "€25/month",
+    "pricePerYear": "€299/year",
+    "description": "Strengthen your Forex trading skills and save time.",
+    "active": true,
+    "benefits": [
+      "Global access to courses taught by recognized Forex traders.",
+      "Learn anytime, anywhere.",
+      "Access to all Forex trading courses you wish to follow or explore.",
+      "Discounts on courses that provide certification.",
+      "Special offers from FutureLearn to maintain quality for existing customers."
+    ],
+    "note": "Excludes Forex trading degree programs on FutureLearn"
+  },
+  {
+    "type": "premium",
+    "title": "Premium Subscription",
+    "pricePerMonth": "€35/month",
+    "pricePerYear": "€399/year",
+    "description": "The next level learning package for Forex trading.",
+    "active": false,
+    "benefits": [
+      "Global access to selected Forex trading courses.",
+      "Supporting materials and resources.",
+      "Access to all Forex trading courses you wish to follow or explore.",
+      "Discounts on courses that provide certification.",
+      "Certificates upon successful completion.",
+      "Private mentoring with an expert Forex trader.",
+      "Live trading sessions and practical examples."
+    ],
+    "note": "Some restrictions may apply"
+  }
+]

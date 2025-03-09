@@ -1,0 +1,57 @@
+/* Globaalne tume taust */
+body {
+  background-color: #111111; /* Tume taust */
+  color: white; /* Valge tekst */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Keskele joondatud konteiner */
+.container {
+  max-width: 1200px; /* Maksimaalne laius */
+  margin: 0 auto; /* Keskele joondamine */
+  padding: 20px; /* Tühik sisu ja äärte vahel */
+}
+
+/* Taustalogo */
+.background-logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.background-logo img {
+  width: 80%;
+  max-width: 800px;
+  opacity: 0.2;
+}
+
+/* Päis */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0; /* Vähenda paddingut */
+  background-color: rgba(24, 23, 23, 0.158);
+  color: rgb(240, 240, 240);
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 60px;
+}
+
+/* Sisu */
+.content {
+  position: relative;
+  z-index: 1;
+  padding-top: 80px; /* Tühik päise ja sisu vahel */
+}

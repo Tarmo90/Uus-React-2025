@@ -1,0 +1,76 @@
+.home {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #DAA520; /* Kuldne värv pealkirjale */
+}
+
+.home p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #DAA520; /* Kuldne värv */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #b8860b; /* Tumem kuldne värv */
+}
+
+/* Lisatud sisu stiilid */
+.content-section {
+  margin: 40px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Varjund */
+}
+
+.content-section h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #f3f3f3;
+}
+
+.content-section p {
+  font-size: 1.1rem;
+  color: #f3f3f3;
+  margin-bottom: 15px;
+}
+
+.content-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.content-section li {
+  font-size: 1.1rem;
+  color: #f3f3f3;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  margin: 20px 0;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}

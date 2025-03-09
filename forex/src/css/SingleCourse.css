@@ -1,0 +1,37 @@
+.course_container {
+  margin-top: 10vh;
+  margin-left: 45vh;
+  margin-right: 50vh;
+  border: 2px solid white;
+  border-radius: 20px;
+  z-index: 100;
+}
+
+.course_title {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 20px;
+  margin-bottom: 10vh;
+}
+
+.course_description {
+  color: aliceblue;
+  margin-left: 20px;
+  margin-right: 10px;
+  line-height: 1.8;
+}
+
+.courses_button {
+  color: #1a1919;
+  margin: 10px 0 20px 20px;
+  background-color: #000000;
+  border-color: #f20cb5;
+  border-radius: 20px;
+  color: #f7f5f5;;
+  padding: 8px 50px;
+}
+
+.courses_button:hover {
+  color: rgb(39, 146, 242);
+  border-color: rgb(39, 146, 242) ;
+}

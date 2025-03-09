@@ -1,0 +1,43 @@
+.courses_title {
+  margin-top: 7vh;
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  background: linear-gradient(to right, #2793f2, #f20cb5) text;
+  -webkit-text-fill-color: transparent;
+ }
+
+ .course_button {
+  font-size: 24px;
+  border-radius: 10px;
+  border: 2px solid ;
+  margin: 10px;
+  color: white;
+  background-color: rgb(5, 17, 242);
+  padding: 10px;
+  animation: colorChange 5s infinite alternate;  
+  transition: border-color 0.4s ease; 
+  transition: transform 1s ease;
+ }
+
+ .course_button:hover {
+  transform: scale(1.1);
+  color:  rgb(242, 12, 181);
+ }
+
+ .course_cont {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16vh;
+  margin-left: 45vh;
+  margin-right: 50vh;
+  justify-content: center;
+ }
+
+ .course_text {
+  font-size: 20px;
+  color: aliceblue;
+  margin-left: 50vh;
+  margin-right: 50vh;
+  margin-top: 16vh;
+ }

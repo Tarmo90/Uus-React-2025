@@ -1,0 +1,111 @@
+.header {
+  display: flex;
+  justify-content: center; /* Joonda päis keskele */
+  align-items: center;
+  padding: 10px 0;
+  background-color: #111111 !important; /* Tume taust */
+  color: rgb(240, 240, 240);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; /* Kõrge z-index */
+  height: 60px;
+}
+
+/* Keskele joondatud konteiner */
+.header .container {
+  display: flex;
+  justify-content: space-between; /* Joonda elemendid ühtlaselt */
+  align-items: center;
+  width: 100%;
+  max-width: 1100px; /* Maksimaalne laius */
+  padding: 0 20px; /* Tühik äärtest */
+}
+
+/* Logo stiil */
+.logo img {
+  height: 55px;
+  width: auto;
+  border: 1px solid #DAA520;
+  border-radius: 4px;
+  padding: 2px;
+  box-shadow: 0 0 10px rgba(218, 165, 32, 0.8);
+  filter: brightness(1.2) contrast(1.5);
+}
+
+/* Parempoolne osa (keele valik ja kasutaja osa) */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Tühik elementide vahel */
+}
+
+/* Keele valiku stiil */
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.language-selector select {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.language-selector select:focus {
+  outline: none;
+}
+
+/* Sisselogimise/Registreerimise lingid */
+.auth-links {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Tühik elementide vahel */
+}
+
+.auth-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.3s ease;
+}
+
+.auth-links a:hover {
+  color: #DAA520;
+}
+
+/* Kasutaja profiili stiil */
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.user-profile button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  transition: color 0.3s ease;
+}
+
+.user-profile button:hover {
+  color: #634b0e;
+}
+
+/* Ikoonide stiil */
+.icon {
+  font-size: 14px;
+  color: #DAA520;
+}

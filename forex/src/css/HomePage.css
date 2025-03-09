@@ -1,0 +1,53 @@
+.main-link-list {
+  display: absolute;
+  margin: 10% 20% 0 25%;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.img-container {
+  padding: 30px 30px;
+ }
+
+.main-link img {
+  width: 30vh; 
+  height: 20vh; 
+  border-width: 3px;
+  border-style: solid;
+  animation: colorChange 5s infinite alternate;
+  border-radius: 10px; 
+  box-shadow: 0px 0px 34px rgba(112, 0, 143, 0.993);  
+  transition: border-color 0.2s ease; 
+}
+
+@keyframes colorChange {
+  0% { border-color: rgb(242, 12, 181); }
+  50% { border-color: rgb(75, 29, 139); }
+  100% { border-color: rgb(5, 17, 242); }
+}
+
+.main-link {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  z-index: 9999;
+}
+
+.main-link h1 {
+  position: absolute;
+  top: 15px;
+  left: 30%;
+  color: white;
+  background-color: rgb(5, 17, 242);
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 20px; 
+  text-align: center; 
+}
+
+.main-link:hover {
+  transform: scale(1.1);
+  transition: transform 1s ease;
+}
+
+

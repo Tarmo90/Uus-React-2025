@@ -1,0 +1,98 @@
+.subscribe_cont {
+  display: flex;
+  justify-content: space-between;
+  margin: 63% 25% 20%;
+  padding: 10px 0%;
+}
+
+.subscribe {
+  width: 45vh;
+  height: 90vh;
+  color: aliceblue;
+  border: 1px solid #f20cb5;
+  box-shadow: 0px 0px 50px rgba(112, 0, 143, 0.993); 
+  border-radius: 60px; 
+  text-align: left;
+  line-height: 2.5;
+}
+
+.subscribe2 {
+  width: 45vh;
+  height: 90vh;
+  color: aliceblue;
+  border: 1px solid#f20cb5;
+  box-shadow: 0px 0px 50px rgba(112, 0, 143, 0.993); 
+  border-radius: 60px; 
+  text-align: left;
+  line-height: 2.5;
+}
+
+.subscribe h3,
+.subscribe2 h3 {
+  color: #f20cb5;
+  margin-top: 30px;
+  text-align: center;
+}
+.subscribe h4,
+.subscribe2 h4{
+  margin-top: 10px; 
+  text-align: center; 
+}
+.subscribe h6,
+.subscribe h5, 
+.subscribe2 h5,
+.subscribe2 h6 {
+  margin-top: 10px; 
+  text-align: center; 
+  position: relative; 
+}
+
+.subscribe h6::after,
+.subscribe2 h6::after {
+  content: ''; 
+  position: absolute;
+  left: 0; 
+  bottom: -20px; 
+  width: 100%; 
+  border-bottom: 2px solid #f20cb5;
+}
+
+.subscribe p,
+.subscribe2 em,
+.subscribe2 p{
+  padding: 5px 20px; 
+  display: flex;
+  margin: auto;
+ }
+
+ul {
+  list-style-type: none; 
+  padding: 5px 30px; 
+ } 
+
+li {
+  list-style: none; 
+  position: relative; 
+  padding-left: 30px; 
+}
+
+li::before {
+  content: '🔹'; 
+  position: absolute; 
+  left: 0; 
+}
+
+.sub_button {
+  font-size: 19px;
+  margin: 40px 18%;
+  background-color: #080808;
+  border-color: #f20cb5 ;
+  color: rgb(243, 239, 243);
+  border-radius: 20px;
+  padding: 0px 70px;
+}
+
+.sub_button:hover {
+  color: #2793f2;
+  border-color: #2793f2 ;
+}

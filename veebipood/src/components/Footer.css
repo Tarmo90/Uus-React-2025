@@ -1,0 +1,77 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111111 !important; /* Tume taust */
+
+    padding: 10px 20px;
+    color: white;
+    font-size: 14px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Ikoonid vasakus nurgas */
+  .social-icons-left {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons-left .icon {
+    font-size: 20px;
+    color: #DAA520;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons-left .icon:hover {
+    color: #ffcc00;
+  }
+  
+  /* Autoriõiguste tekst ja lingid */
+  .footer-content {
+    display: flex; /* Horisontaalne paigutus */
+    align-items: center; /* Vertikaalne joondus */
+    gap: 500px; /* Tühik teksti ja linkide vahel */
+    right: 50%;
+  }
+  
+  .footer-links {
+    display: flex; /* Horisontaalne paigutus */
+    gap: 10px; /* Tühik linkide vahel */
+  }
+  
+  .footer-links a {
+    color: #DAA520;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsiivsus */
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .social-icons-left {
+      margin-bottom: 10px;
+    }
+  
+    .footer-content {
+      flex-direction: column; /* Vertikaalne paigutus mobiilivaates */
+      gap: 5px; /* Vähenda tühikut */
+    }
+  
+    .footer-links {
+      flex-direction: column; /* Vertikaalne paigutus mobiilivaates */
+      gap: 5px; /* Vähenda tühikut */
+    }
+  }
